@@ -1,7 +1,6 @@
-
 import java.util.ArrayList;
 
-public class dfs {
+public class possiblePaths {
     static class Edge {
         int src;
         int dest;
@@ -14,6 +13,7 @@ public class dfs {
 
     // stacks is used to track the current
 
+    // normal dfs------------->
     public static void createGraph(ArrayList<Edge> graph[]) {
         // Create ArrayLists for each vertex
         for (int i = 0; i < graph.length; i++) {
@@ -57,14 +57,37 @@ public class dfs {
         }
     }
 
+    // time complexity--> 0(v^v)
+    // modified dfs---------------->
+    public static void printAllPath(ArrayList<Edge>[] graph, boolean vis[], int curr, String path, int tar) {
+
+        // base case:
+        if (curr == tar) {
+            System.out.println(path);
+            return;
+        }
+
+        for (int i = 0; i < graph[curr].size(); i++) {
+
+            Edge e = graph[curr].get(i);
+
+            if (!vis[e.dest]) {
+                vis[curr] = true;
+                printAllPath(graph, vis, e.dest, path + e.dest, tar);
+                vis[curr] = false;
+            }
+
+        }
+
+    }
+
     public static void main(String args[]) {
         int V = 7;
 
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
 
-        boolean vis[] = new boolean[V];
-        dfs(graph, 0, vis);
-        System.out.println();
+        int src = 0, tar = 5;
+        printAllPath(graph, new boolean[V], src, "0", tar);
     }
 }
