@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "queue",
+      "request": "launch",
+      "mainClass": "Queue_java.queue",
+      "projectName": "DSA_66b41677"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
