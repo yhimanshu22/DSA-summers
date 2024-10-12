@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Max_Area_histogram",
+      "request": "launch",
+      "mainClass": "Max_Area_histogram",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
       "name": "Stock_span",
       "request": "launch",
       "mainClass": "Stock_span",
