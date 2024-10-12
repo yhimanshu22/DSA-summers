@@ -1,6 +1,4 @@
 
-import java.util.*;
-
 public class stack {
     private static class Node {
         int data;

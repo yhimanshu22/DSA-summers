@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NextGreaterElement",
+      "request": "launch",
+      "mainClass": "NextGreaterElement",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
+      "name": "BalancedBrackets",
+      "request": "launch",
+      "mainClass": "BalancedBrackets",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
+      "name": "DuplicateCharacters",
+      "request": "launch",
+      "mainClass": "DuplicateCharacters",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
+      "name": "balanced",
+      "request": "launch",
+      "mainClass": "balanced",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
       "name": "queue",
       "request": "launch",
       "mainClass": "Queue_java.queue",
