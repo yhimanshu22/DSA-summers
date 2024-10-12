@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Stock_span",
+      "request": "launch",
+      "mainClass": "Stock_span",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
       "name": "NextGreaterElement",
       "request": "launch",
       "mainClass": "NextGreaterElement",
