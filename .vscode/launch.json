@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "power_n",
+      "request": "launch",
+      "mainClass": "recursion.power_n",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
       "name": "factorial",
       "request": "launch",
       "mainClass": "recursion.factorial",
