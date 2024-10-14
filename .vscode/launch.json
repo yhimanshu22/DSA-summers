@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "print_subsequence",
+      "request": "launch",
+      "mainClass": "recursion.print_subsequence",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
       "name": "maze_with_steps",
       "request": "launch",
       "mainClass": "recursion.maze_with_steps",
