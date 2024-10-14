@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "maze_paths",
+      "request": "launch",
+      "mainClass": "recursion.maze_paths",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
+      "name": "get_paths",
+      "request": "launch",
+      "mainClass": "recursion.get_paths",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
+      "name": "getKeyPad",
+      "request": "launch",
+      "mainClass": "recursion.getKeyPad",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
+      "name": "all_subsequence",
+      "request": "launch",
+      "mainClass": "recursion.all_subsequence",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
       "name": "toh",
       "request": "launch",
       "mainClass": "recursion.toh",
