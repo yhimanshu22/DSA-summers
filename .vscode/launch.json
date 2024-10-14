@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "toh",
+      "request": "launch",
+      "mainClass": "recursion.toh",
+      "projectName": "DSA-summers_4db8e668"
+    },
+    {
+      "type": "java",
       "name": "zigzag",
       "request": "launch",
       "mainClass": "recursion.zigzag",
